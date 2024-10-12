@@ -1,1 +1,17 @@
 /* Styling for index.html */
+
+#First_div {
+    background-color: #f8f1e8;
+    box-sizing: content-box;
+}
+
+#Second_div {
+    background-color: #6296a6;
+}
+
+.Grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-rows: 1fr 1fr;    /* Two equal rows */
+    gap: 10px; 
+}
