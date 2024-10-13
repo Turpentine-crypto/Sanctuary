@@ -1,0 +1,33 @@
+/* Stylesheet for Get_Help */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes COMEIn {
+    0% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: COMEIn 2s ease-in; 
+}
+
+.Grid_container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 100vh;
+}
+
+#Back {
+    background-color: #6296a6;
+    position: relative;
+    height: 100vh;
+}
