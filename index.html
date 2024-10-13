@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Sanctuary</title>
-       <link rel="stylesheet" href="./CSS-Files/styles.css"> 
-    </head>
-    <body>
-        <div class="Grid_container">
+<head>
+    <meta charset="utf-8">
+    <title>Sanctuary</title>
+    <link rel="stylesheet" href="./CSS-Files/styles.css"> 
+</head>
+<body>
+    <div class="Grid_container">
         <div id="First_div">
-            <img src="./Images/WhatsApp Image 2024-10-12 at 15.54.20.jpeg" id="Logo">
-            <div id="Collection">
-                <h3 class="headLinks">Get Help</h3>
-                <h3 class="headLinks">About Us</h3>
-                <h3 class="headLinks">Client Resources</h3>
+            <div id="LogoContainer">
+                <img src="./Images/WhatsApp Image 2024-10-12 at 15.54.20.jpeg" id="Logo" alt="Sanctuary Logo">
+                <!-- Invisible clickable area -->
+                <a href="#" id="LogoLink"></a>
+            </div>
+            <div id="VideoContainer">
+                <video id="myVideo" autoplay muted loop>
+                    <source src="Images/WhatsApp Video 2024-10-12 at 16.10.04.mp4" type="video/mp4">
+                </video>
+                <div class="overlay"></div> 
+                <div id="Links">
+                    <button class="headLinks">Get Help</button>
+                    <button class="headLinks">About Us</button>
+                    <button class="headLinks">Client Resources</button>
+                </div>
             </div>
         </div>
         <div id="Second_div">
-            
+            <!-- Content for the Second Div -->
         </div>
-        </div>
-    </body>
+    </div>
+</body>
 </html>
