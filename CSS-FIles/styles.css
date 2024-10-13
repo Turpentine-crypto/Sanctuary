@@ -1,29 +1,49 @@
 /* Styling for index.html */
 
+
 html, body {
     height: 100%;
     margin: 0;
-}
-
-#First_div {
+ }
+ 
+ 
+ #First_div {
     background-color: #f8f1e8;
     box-sizing: content-box;
-}
-
-#Second_div {
+ }
+ 
+ 
+ #Second_div {
     background-color: #6296a6;
-}
-
-.Grid_container {
+ }
+ 
+ 
+ .Grid_container {
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 100% 100%;   
-    height: 100vh; 
-}
-
-#Logo {
+    grid-template-rows: 100% 100%;  
+    height: 100vh;
+ }
+ 
+ 
+ #Logo {
     margin-left: 0px;
     margin-top: 0px;
     width: 900px;
     height: 300px;
-}
+ }
+ 
+ 
+ #Collection {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;  
+ }
+ 
+ 
+ .headLinks {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+ }
+ 
