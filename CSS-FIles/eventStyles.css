@@ -1,10 +1,14 @@
 html, body {
-    height: 100%;
-    margin: 0;
+     /* Use 100% to fill the viewport */
+    height: 105%;
     overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    background-color: #6296a6;
+    background-image: url("../Images/WhatsApp Image 2024-10-13 at 09.33.03.jpeg");
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 @keyframes COMEIn {
@@ -21,5 +25,54 @@ body {
 }
 
 #First {
-    font-size:xx-large;
+    font-size: xx-large;
+    margin-top: 300px;
+    margin-left: 700px;
+}
+
+#Second {
+    font-size: xx-large;
+    margin-left: 450px;
+}
+
+#First,
+#Second {
+    border-color: orange;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+h1, h5 {
+    font-size: xx-large;
+    margin-left: 450px;
+    color: orange;
+}
+
+#Second_div {
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers the .vertical-box horizontally */
+    align-items: center; /* Centers the .vertical-box vertically */
+    height: 100vh; /* Ensures it takes the full height of the viewport */
+}
+
+.vertical-box {
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: center; /* Centers children vertically */
+    align-items: center; /* Centers children horizontally */
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Set a maximum width to prevent it from stretching too wide */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+/* Styles for paragraphs and headings */
+.vertical-box h2, 
+.vertical-box p {
+    font-size: 2rem; /* Adjust size as needed */
+    text-align: center; /* Center text */
+    background-color: rgba(200, 200, 200, 0.7); /* Grayish background with some transparency */
+    border: 1px solid white; /* Slight white border */
+    border-radius: 5px; /* Optional: Rounded corners */
+    padding: 10px; /* Spacing inside the box */
+    margin: 10px 0; /* Spacing between elements */
 }
