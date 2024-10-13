@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #6296a6;
+}
+
+@keyframes COMEIn {
+    0% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: COMEIn 2s ease-in; 
+}
+
+#First {
+    font-size:xx-large;
+}

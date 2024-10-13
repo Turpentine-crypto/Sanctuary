@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    
+    .container {
+    text-align: center;
+    }
+    
+    h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+    }
+    
+    .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    }
+    
+    button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    .btn-yes {
+    background-color: #4CAF50;
+    color: white;
+    }
+    
+    .btn-yes:hover {
+    background-color: #43a047;
+    }
+    
+    .btn-no {
+    background-color: #f44336;
+    color: white;
+    }
+    
+    .btn-no:hover {
+    background-color: #e53935;
+    }

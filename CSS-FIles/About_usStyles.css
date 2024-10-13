@@ -1,0 +1,62 @@
+/* Styling for Events page */
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #6296a6;
+}
+
+@keyframes COMEIn {
+    0% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: COMEIn 2s ease-in; 
+}
+
+.Grid_container {
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    height: 100vh;
+}
+
+#First_div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('../Images/WhatsApp Image 2024-10-13 at 08.21.14.jpeg');
+    background-size: 500px 1600px; /* Adjusts to fit rotated dimensions exactly */
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(90deg); /* Rotate to correct orientation */
+    transform-origin: center;
+    overflow: hidden; /* Ensures the image stays within div bounds */
+}
+
+#Second_div {
+    height: 100vh;
+    color: white;
+    font-weight: bolder;
+
+}
+
+#Second_div h1 {
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+#Second_div p {
+    margin-bottom: 30px;
+    font-size: larger;
+    line-height: 180%;
+}
+
+p, h1 {
+    margin-left: 25px;
+}
